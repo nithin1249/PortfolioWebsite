@@ -104,12 +104,12 @@ function Contact() {
                             <TextField
                                 required
                                 id="outlined-required-email"
-                                label="Email / Phone"
+                                label="Email"
                                 placeholder="How can I reach you?"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 error={emailError}
-                                helperText={emailError ? "Please enter your email or phone number" : ""}
+                                helperText={emailError ? "Please enter your email" : ""}
                             />
                         </div>
                         <TextField

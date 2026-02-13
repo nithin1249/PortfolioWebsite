@@ -25,8 +25,7 @@ const labelsSecond = [
     "Python",
     "CMake",
     "Shell Scripting",
-    "Compiler Design",
-    "Data Structures & Algorithms",
+    "LLVM",
     "System Architecture",
 ];
 
@@ -38,7 +37,6 @@ const labelsThird = [
     "GitHub Actions",
     "Linux",
     "CI/CD",
-    "Postman",
     "Vercel/Netlify"
 ];
 
