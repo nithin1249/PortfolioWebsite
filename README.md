@@ -35,10 +35,3 @@ This portfolio is a custom-engineered **React** application designed to showcase
 
 ---
 
-## 📂 Featured Engineering Projects
-* **Nand2Tetris Jack Compiler**: A high-performance C++ tool achieving 100k+ lines/sec throughput.
-* **Crypto-Hunter Dashboard**: A real-time MERN stack application with Chart.js visualizations.
-* **Interactive Wordle Clone**: A GUI-driven game built in MATLAB utilizing event-driven programming.
-
----
-
