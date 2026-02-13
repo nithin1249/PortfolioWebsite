@@ -36,7 +36,7 @@ function Timeline() {
                         icon={<FontAwesomeIcon icon={faGraduationCap} />}
                     >
                         <h3 className="vertical-timeline-element-title">Bachelor of Computer Science (Advanced)</h3>
-                        <h4 className="vertical-timeline-element-subtitle">University of Adelaide</h4>
+                        <h4 className="vertical-timeline-element-subtitle">Adelaide University</h4>
                         <p>
                             <strong>GPA: 6.75 / 7.00</strong>
                         </p>
