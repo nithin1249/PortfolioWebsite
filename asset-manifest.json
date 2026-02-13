@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/PortfolioWebsite/static/css/main.ccf66371.css",
+    "main.js": "/PortfolioWebsite/static/js/main.7ff9b941.js",
+    "static/js/453.e7f01505.chunk.js": "/PortfolioWebsite/static/js/453.e7f01505.chunk.js",
+    "static/media/compiler.png": "/PortfolioWebsite/static/media/compiler.43bb4f100db85d35a488.png",
+    "static/media/crypto-hunter.png": "/PortfolioWebsite/static/media/crypto-hunter.0852d2de1a7df0d62e12.png",
+    "static/media/bg-light.png": "/PortfolioWebsite/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/PortfolioWebsite/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/wordle.jpeg": "/PortfolioWebsite/static/media/wordle.3d1a18d7c1ff8a20d453.jpeg",
+    "index.html": "/PortfolioWebsite/index.html",
+    "main.ccf66371.css.map": "/PortfolioWebsite/static/css/main.ccf66371.css.map",
+    "main.7ff9b941.js.map": "/PortfolioWebsite/static/js/main.7ff9b941.js.map",
+    "453.e7f01505.chunk.js.map": "/PortfolioWebsite/static/js/453.e7f01505.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccf66371.css",
+    "static/js/main.7ff9b941.js"
+  ]
+}
