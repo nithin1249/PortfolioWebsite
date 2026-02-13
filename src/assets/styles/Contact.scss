@@ -1,0 +1,70 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  /* Targets the text you type inside the boxes */
+  .MuiInputBase-input {
+    color: white !important;
+  }
+
+  /* Targets the labels (Your Name, Email, etc.) */
+  .MuiInputLabel-root {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+
+  /* Targets the labels when the box is clicked (Focused) */
+  .MuiInputLabel-root.Mui-focused {
+    color: #5000ca !important;
+  }
+
+  /* Targets the border of the input boxes */
+  .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+  }
+
+  /* Change the border color when you hover over the box */
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+  }
+
+  /* Change the border color when you click inside the box */
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #5000ca !important;
+  }
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
