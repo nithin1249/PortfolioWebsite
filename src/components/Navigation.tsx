@@ -18,6 +18,7 @@ import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
 const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
+const RESUME_PATH = process.env.PUBLIC_URL + "/resume.pdf";
 
 function Navigation({parentToChild, modeChange}: any) {
 
@@ -69,6 +70,16 @@ function Navigation({parentToChild, modeChange}: any) {
             </ListItemButton>
           </ListItem>
         ))}
+          <ListItem disablePadding>
+              <ListItemButton
+                  sx={{ textAlign: 'center' }}
+                  component="a"
+                  href={RESUME_PATH}
+                  download="My_Resume.pdf"
+              >
+                  <ListItemText primary="Resume" />
+              </ListItemButton>
+          </ListItem>
       </List>
     </Box>
   );
@@ -98,6 +109,20 @@ function Navigation({parentToChild, modeChange}: any) {
                 {item[0]}
               </Button>
             ))}
+          <Button
+              variant="outlined"        // Gives it a border to make it stand out
+              component="a"
+              href={RESUME_PATH}
+              download="My_Resume.pdf"
+              sx={{
+                  color: '#fff',
+                  borderColor: '#fff',
+                  ml: 2,
+                  '&:hover': { borderColor: '#ccc', backgroundColor: 'rgba(255,255,255,0.1)' }
+              }}
+          >
+              Resume
+          </Button>
           </Box>
         </Toolbar>
       </AppBar>

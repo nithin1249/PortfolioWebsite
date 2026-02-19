@@ -2,6 +2,7 @@ import React from "react";
 import mock01 from '../assets/images/compiler.png';
 import mock02 from '../assets/images/crypto-hunter.png';
 import mock03 from '../assets/images/wordle.jpeg';
+import mock04 from '../assets/images/huffman.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -70,6 +71,22 @@ function Project() {
                         I implemented a robust input validation system and a dedicated state management system that
                         tracks attempts in real-time. This project showcases the intersection of Object-Oriented Programming
                         and GUI design within a polished MATLAB environment.
+                    </p>
+                </div>
+
+                <div className="project">
+                    <a href="https://github.com/nithin1249/HuffmanCompressor" target="_blank" rel="noreferrer">
+                        <img src={mock04} className="zoom" alt="Huffman Compressor Toolchain Thumbnail" width="100%"/>
+                    </a>
+                    <a href="https://github.com/nithin1249/HuffmanCompressor" target="_blank" rel="noreferrer">
+                        <h2>Huffman Compressor & Toolchain</h2>
+                    </a>
+                    <p>
+                        Engineered a high-performance systems utility in C++17 implementing the Huffman Coding
+                        algorithm with O(nlog(n))complexity for optimal data compression. The core engine
+                        utilizes a min-priority queue for prefix-free tree construction and a custom bit-packing engine
+                        that employs bitwise manipulation to stream variable-length codes into raw binary buffers.I developed a robust binary serialization format that manages non-byte-aligned sequences to
+                        ensure 100% data integrity during the decompression round-trip.
                     </p>
                 </div>
 
